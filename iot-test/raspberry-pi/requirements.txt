@@ -1,2 +1,5 @@
 paho-mqtt
+RPLCD
+smbus2
 https://www.hivemq.com/demos/websocket-client/
+
