@@ -17,8 +17,8 @@ const char WIFI_PASS[]      = "11335577";
 
 const char MQTT_HOST[]      = "mqtt-dashboard.com"; // เปลี่ยนเป็น broker ของคุณได้
 const int  MQTT_PORT        = 1883;                 // non-TLS
-const char MQTT_USER[]      = "";                   // ใส่ถ้ามี
-const char MQTT_PASSWORD[]  = "";                   // ใส่ถ้ามี
+const char MQTT_USER[]      = "sukhum";             // ใส่ถ้ามี
+const char MQTT_PASSWORD[]  = "ks";                 // ใส่ถ้ามี
 const char MQTT_CLIENT_ID[] = "uno-r4-sht31";
 
 const char MQTT_TOPIC[]     = "ks";
@@ -108,3 +108,4 @@ void loop() {
     mqtt.publish(MQTT_TOPIC, line);
   }
 }
+
