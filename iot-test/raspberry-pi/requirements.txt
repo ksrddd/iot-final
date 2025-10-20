@@ -1,0 +1,2 @@
+paho-mqtt
+https://www.hivemq.com/demos/websocket-client/

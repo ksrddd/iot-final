@@ -1,0 +1,11 @@
+ไลบรารีที่ต้องมี (ผ่าน Library Manager):
+
+Adafruit SHT31 Library
+MQTTClient (Joel Gaehwiler)
+WiFiS3 (มากับ UNO R4 WiFi Board Package)
+
+ติดตั้ง “Arduino UNO R4 Boards” ใน Boards Manager
+
+การต่อ SHT31 (I2C):
+VIN→5V, GND→GND, SDA→SDA(A4), SCL→SCL(A5) (หรือขา SDA/SCL ที่บอร์ดพิมพ์ไว้)
+ถ้าไม่เจอเซนเซอร์ ลองเปลี่ยน SHT31_ADDR เป็น 0x45
